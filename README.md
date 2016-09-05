@@ -11,7 +11,7 @@ It will also process all currently running containers.
 
 To connect to a remote docker node or swarm cluster use `--socket-url`, e.g.
 
-    python docker-etchosts.py --socker-url='tcp:///localhost:2335'
+    python docker-etchosts.py --socket-url='tcp:///localhost:2335'
 
 To specify the full path to your hosts file you would like modified pass `--hosts-file=/etc/hosts`.
 To skip processing running containers on script startup pass `--skip-running`.
